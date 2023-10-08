@@ -1,5 +1,5 @@
 # C-SPI
-## Header file for controlling SPI slave (secondary) devices with a raspberry-pi as master (primary) device.
+## Header file for controlling SPI slave (target) devices with a raspberry-pi as master (controller) device.
 SPI demo file contains an example code of controlling the MCP3008 chip and reading CH0 of MCP3008.
 You need to initialize and control the CS pins on your own.
 The begin() function initializes CLK, MISO and MOSI pins.
